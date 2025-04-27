@@ -601,8 +601,376 @@
             <label for="chegada-aero"><strong>Chegar ao aeroporto com 2 horas de antecedência (9:25)</strong></label>
         </div>
         
-        <!-- Resto do conteúdo HTML permanece o mesmo -->
+        <div class="checklist-item" id="item-check-in">
+            <input type="checkbox" id="check-in">
+            <label for="check-in"><strong>Fazer check-in no balcão da LATAM</strong> (caso não tenha feito online)</label>
+        </div>
         
+        <div class="checklist-item" id="item-bagagem">
+            <input type="checkbox" id="bagagem">
+            <label for="bagagem"><strong>Despachar bagagem</strong> (23kg permitidos)</label>
+        </div>
+        
+        <div class="checklist-item" id="item-doc-mao">
+            <input type="checkbox" id="doc-mao">
+            <label for="doc-mao"><strong>Ter documento de identificação e passagem em mãos</strong></label>
+        </div>
+        
+        <h3 id="chegada-sp">Chegada em São Paulo</h3>
+        
+        <div class="checklist-item" id="item-retirar-bagagem">
+            <input type="checkbox" id="retirar-bagagem">
+            <label for="retirar-bagagem"><strong>Retirar bagagem na esteira</strong></label>
+        </div>
+        
+        <div class="checklist-item" id="item-saida-aero">
+            <input type="checkbox" id="saida-aero">
+            <label for="saida-aero"><strong>Seguir as placas para a saída do aeroporto</strong></label>
+        </div>
+        
+        <div class="checklist-item" id="item-uber">
+            <input type="checkbox" id="uber">
+            <label for="uber"><strong>Solicitar táxi/Uber na saída do aeroporto</strong></label>
+        </div>
+        
+        <div class="important">
+            <strong>Endereço do hotel:</strong> Alameda Casa Branca, 909 - Jardim Paulista, São Paulo
+        </div>
+        
+        <h3 id="hotel">No Hotel George V Casa Branca</h3>
+        
+        <div class="info-card">
+            <strong>Detalhes da Reserva:</strong>
+            <ul>
+                <li>Número da reserva: 8623032034</li>
+                <li>Check-in a partir das 15h</li>
+                <li>Quarto: Suíte Super Luxo</li>
+                <li>Inclusos: Café da manhã, estacionamento e Wi-Fi</li>
+            </ul>
+        </div>
+        
+        <div class="checklist-item" id="item-checkin-hotel">
+            <input type="checkbox" id="checkin-hotel">
+            <label for="checkin-hotel"><strong>Fazer check-in na recepção</strong>
+                <ul>
+                    <li>Apresentar documento de identificação</li>
+                    <li>Informar número da reserva (8623032034)</li>
+                </ul>
+            </label>
+        </div>
+        
+        <div class="checklist-item" id="item-ajuda-malas">
+            <input type="checkbox" id="ajuda-malas">
+            <label for="ajuda-malas"><strong>Solicitar ajuda com as malas até o quarto</strong></label>
+        </div>
+        
+        <div class="checklist-item" id="item-servicos-quarto">
+            <input type="checkbox" id="servicos-quarto">
+            <label for="servicos-quarto"><strong>Pedir explicações sobre os serviços do quarto</strong></label>
+        </div>
+        
+        <h3 id="final-dia10">Final do Dia</h3>
+        
+        <div class="checklist-item" id="item-jantar">
+            <input type="checkbox" id="jantar">
+            <label for="jantar"><strong>Jantar no hotel ou em restaurante próximo</strong></label>
+        </div>
+        
+        <div class="checklist-item" id="item-preparacao">
+            <input type="checkbox" id="preparacao">
+            <label for="preparacao"><strong>Preparação para o dia seguinte</strong>
+                <ul>
+                    <li>Separar documentos necessários para o voo internacional</li>
+                    <li>Programar despertador</li>
+                </ul>
+            </label>
+        </div>
+    </div>
+
+    <div class="day-container" id="dia11">
+        <span class="day-title">DIA 11 (Quarta-feira)</span>
+        <h2>São Paulo para Boston via Bogotá</h2>
+        
+        <div class="flight-card">
+            <div class="flight-header">
+                <div style="display: flex; align-items: center;">
+                    <img src="/api/placeholder/120/30" alt="Avianca" class="flight-logo">
+                    <span>Voo AV 184</span>
+                </div>
+                <div>11 de Junho, 2025</div>
+            </div>
+            
+            <div class="flight-route">
+                <div class="flight-city">
+                    <div class="flight-time">16:50</div>
+                    <div>São Paulo (GRU)</div>
+                </div>
+                <div class="flight-arrow"></div>
+                <div class="flight-city">
+                    <div class="flight-time">20:50</div>
+                    <div>Bogotá (BOG)</div>
+                </div>
+            </div>
+            
+            <div class="flight-details">
+                <div class="flight-detail">
+                    <div class="flight-detail-label">Código da Reserva</div>
+                    <div class="flight-detail-value">3VA7UE</div>
+                </div>
+                <div class="flight-detail">
+                    <div class="flight-detail-label">Duração</div>
+                    <div class="flight-detail-value">4h 0m</div>
+                </div>
+                <div class="flight-detail">
+                    <div class="flight-detail-label">Assento</div>
+                    <div class="flight-detail-value">5K</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flight-card">
+            <div class="flight-header">
+                <div style="display: flex; align-items: center;">
+                    <img src="/api/placeholder/120/30" alt="Avianca" class="flight-logo">
+                    <span>Voo AV 222</span>
+                </div>
+                <div>11 de Junho, 2025</div>
+            </div>
+            
+            <div class="flight-route">
+                <div class="flight-city">
+                    <div class="flight-time">23:55</div>
+                    <div>Bogotá (BOG)</div>
+                </div>
+                <div class="flight-arrow"></div>
+                <div class="flight-city">
+                    <div class="flight-time">07:15</div>
+                    <div>Boston (BOS)</div>
+                </div>
+            </div>
+            
+            <div class="flight-details">
+                <div class="flight-detail">
+                    <div class="flight-detail-label">Código da Reserva</div>
+                    <div class="flight-detail-value">3VA7UE</div>
+                </div>
+                <div class="flight-detail">
+                    <div class="flight-detail-label">Duração</div>
+                    <div class="flight-detail-value">7h 20m</div>
+                </div>
+                <div class="flight-detail">
+                    <div class="flight-detail-label">Assento</div>
+                    <div class="flight-detail-value">5K</div>
+                </div>
+            </div>
+        </div>
+        
+        <h3 id="manha-dia11">Manhã - Preparação para Saída</h3>
+        
+        <div class="checklist-item" id="item-cafe">
+            <input type="checkbox" id="cafe">
+            <label for="cafe"><strong>Tomar café da manhã</strong> (incluso na diária do hotel)</label>
+        </div>
+        
+        <div class="checklist-item" id="item-mala">
+            <input type="checkbox" id="mala">
+            <label for="mala"><strong>Fazer a mala e verificar se não está esquecendo nada no quarto</strong></label>
+        </div>
+        
+        <div class="checklist-item" id="item-confirmar-horarios">
+            <input type="checkbox" id="confirmar-horarios">
+            <label for="confirmar-horarios"><strong>Confirmar horários dos voos</strong></label>
+        </div>
+        
+        <h3 id="checkout-aero">Check-out e Ida para o Aeroporto</h3>
+        
+        <div class="checklist-item" id="item-checkout">
+            <input type="checkbox" id="checkout">
+            <label for="checkout"><strong>Check-out do hotel às 12:00</strong>
+                <ul>
+                    <li>Devolver a chave do quarto na recepção</li>
+                    <li>Solicitar nota fiscal, se necessário</li>
+                    <li>Pedir ajuda com as malas</li>
+                </ul>
+            </label>
+        </div>
+        
+        <div class="checklist-item" id="item-taxi-aero">
+            <input type="checkbox" id="taxi-aero">
+            <label for="taxi-aero"><strong>Solicitar que o hotel chame um táxi/Uber para o aeroporto</strong></label>
+        </div>
+        
+        <div class="important">
+            <strong>Importante:</strong> Sair com antecedência (pelo menos 4 horas antes do voo internacional - 12:50)
+        </div>
+        
+        <h3>No Aeroporto Internacional de Guarulhos (Terminal 2)</h3>
+        
+        <div class="checklist-item" id="item-balcao-avianca">
+            <input type="checkbox" id="balcao-avianca">
+            <label for="balcao-avianca"><strong>Localizar o balcão de check-in da Avianca</strong></label>
+        </div>
+        
+        <div class="checklist-item" id="item-checkin-avianca">
+            <input type="checkbox" id="checkin-avianca">
+            <label for="checkin-avianca"><strong>Fazer check-in no balcão da Avianca</strong>
+                <ul>
+                    <li>Apresentar passaporte e código da reserva (3VA7UE)</li>
+                    <li>Despachar bagagem (23kg permitidos)</li>
+                    <li>Obter cartão de embarque para os dois voos (São Paulo-Bogotá e Bogotá-Boston)</li>
+                </ul>
+            </label>
+        </div>
+        
+        <div class="checklist-item" id="item-seguranca-imigracao">
+            <input type="checkbox" id="seguranca-imigracao">
+            <label for="seguranca-imigracao"><strong>Passar pela área de segurança e imigração</strong>
+                <ul>
+                    <li>Manter passaporte e cartão de embarque sempre à mão</li>
+                    <li>Remover líquidos, eletrônicos e itens metálicos para inspeção</li>
+                </ul>
+            </label>
+        </div>
+        
+        <div class="checklist-item" id="item-portao-embarque">
+            <input type="checkbox" id="portao-embarque">
+            <label for="portao-embarque"><strong>Localizar o portão de embarque</strong>
+                <ul>
+                    <li>Verificar o número do portão no cartão de embarque</li>
+                    <li>Procurar nos painéis do aeroporto</li>
+                    <li>Encontrar Nádia e filhas no portão</li>
+                </ul>
+            </label>
+        </div>
+        
+        <div class="checklist-item" id="item-embarque-bogota">
+            <input type="checkbox" id="embarque-bogota">
+            <label for="embarque-bogota"><strong>16:50 - Embarcar no voo AV 184 para Bogotá</strong></label>
+        </div>
+        
+        <h3>Conexão em Bogotá</h3>
+        
+        <div class="checklist-item" id="item-chegada-bogota">
+            <input type="checkbox" id="chegada-bogota">
+            <label for="chegada-bogota"><strong>20:50 - Chegar em Bogotá (BOG)</strong></label>
+        </div>
+        
+        <div class="checklist-item" id="item-conexao-internacional">
+            <input type="checkbox" id="conexao-internacional">
+            <label for="conexao-internacional"><strong>Seguir as placas para conexões internacionais</strong></label>
+        </div>
+        
+        <div class="checklist-item" id="item-portao-boston">
+            <input type="checkbox" id="portao-boston">
+            <label for="portao-boston"><strong>Verificar o portão de embarque para Boston</strong></label>
+        </div>
+        
+        <div class="checklist-item" id="item-embarque-boston">
+            <input type="checkbox" id="embarque-boston">
+            <label for="embarque-boston"><strong>23:55 - Embarcar no voo AV 222 para Boston</strong></label>
+        </div>
+    </div>
+
+    <div class="day-container" id="dia12">
+        <span class="day-title">DIA 12 (Quinta-feira)</span>
+        <h2>Chegada a Boston e ida para Dartmouth</h2>
+        
+        <div class="flight-card">
+            <div class="flight-header">
+                <div style="display: flex; align-items: center;">
+                    <img src="/api/placeholder/120/30" alt="Dartmouth Coach" class="flight-logo">
+                    <span>Dartmouth Coach</span>
+                </div>
+                <div>12 de Junho, 2025</div>
+            </div>
+            
+            <div class="flight-route">
+                <div class="flight-city">
+                    <div class="flight-time">7:40 AM</div>
+                    <div>Boston (Logan Airport)</div>
+                </div>
+                <div class="flight-arrow"></div>
+                <div class="flight-city">
+                    <div>Hanover</div>
+                    <div>Dartmouth College</div>
+                </div>
+            </div>
+            
+            <div class="flight-details">
+                <div class="flight-detail">
+                    <div class="flight-detail-label">Número do Bilhete</div>
+                    <div class="flight-detail-value">UQWPKA</div>
+                </div>
+                <div class="flight-detail">
+                    <div class="flight-detail-label">Preço</div>
+                    <div class="flight-detail-value">$40.00 USD</div>
+                </div>
+                <div class="flight-detail">
+                    <div class="flight-detail-label">Viagem</div>
+                    <div class="flight-detail-value">704</div>
+                </div>
+            </div>
+        </div>
+        
+        <h3>Chegada em Boston</h3>
+        
+        <div class="checklist-item" id="item-chegar-boston">
+            <input type="checkbox" id="chegar-boston">
+            <label for="chegar-boston"><strong>07:15 - Chegar em Boston (BOS)</strong></label>
+        </div>
+        
+        <div class="checklist-item" id="item-imigracao">
+            <input type="checkbox" id="imigracao">
+            <label for="imigracao"><strong>Passar pela imigração</strong>
+                <ul>
+                    <li>Ter passaporte e formulário de imigração em mãos</li>
+                    <li>Responder às perguntas do oficial de imigração com calma</li>
+                    <li>Informar que está visitando família em Dartmouth College</li>
+                </ul>
+            </label>
+        </div>
+        
+        <div class="checklist-item" id="item-retirar-bagagem-boston">
+            <input type="checkbox" id="retirar-bagagem-boston">
+            <label for="retirar-bagagem-boston"><strong>Retirar bagagem e passar pela alfândega</strong></label>
+        </div>
+        
+        <div class="important">
+            <strong>MUITO IMPORTANTE:</strong> Ao sair da área de desembarque, vire à DIREITA. Você verá uma placa escrita "Dartmouth Coach" do lado de fora.
+        </div>
+        
+        <h3>Dartmouth Coach</h3>
+        
+        <div class="checklist-item" id="item-encontrar-onibus">
+            <input type="checkbox" id="encontrar-onibus">
+            <label for="encontrar-onibus"><strong>Localizar o ônibus Dartmouth Coach</strong>
+                <ul>
+                    <li>O ônibus estará estacionado próximo à placa "Dartmouth Coach"</li>
+                    <li>Chegar com pelo menos 30 minutos de antecedência (7:10 AM)</li>
+                    <li>Lembrar que o serviço é por ordem de chegada ("first come, first board")</li>
+                </ul>
+            </label>
+        </div>
+        
+        <div class="checklist-item" id="item-embarcar-onibus">
+            <input type="checkbox" id="embarcar-onibus">
+            <label for="embarcar-onibus"><strong>Embarcar no ônibus para Hanover</strong>
+                <ul>
+                    <li>Apresentar o bilhete UQWPKA</li>
+                    <li>Guardar sua bagagem no compartimento do ônibus</li>
+                </ul>
+            </label>
+        </div>
+        
+        <div class="checklist-item" id="item-chegada-hanover">
+            <input type="checkbox" id="chegada-hanover">
+            <label for="chegada-hanover"><strong>Chegada em Hanover - Dartmouth College</strong>
+                <ul>
+                    <li>Ponto de desembarque: Em frente à Rauner Library/Webster Hall</li>
+                    <li>Retirar sua bagagem do compartimento</li>
+                </ul>
+            </label>
+        </div>
     </div>
 
     <!-- Adicionar script atualizado para simulação de data -->
